@@ -28,7 +28,7 @@ def test_run_time(func):
 
 # 配置日志基本设置
 logging.basicConfig(
-    level=logging.DEBUG,    # 设置为DEBUG级别
+    level=logging.DEBUG,     # 设置为DEBUG级别
     format='%(asctime)s - %(levelname)s - %(message)s',  # 设置日志格式
     handlers=[
         logging.StreamHandler()  # 输出到控制台
