@@ -86,9 +86,7 @@ def sava_data(name, content):
     :return:
     '''
     doc = Document()
-    '''
-    标题内容获取及格式设置
-    '''
+    # 标题内容获取及格式设置
     title = doc.add_heading(level=1)  # 创建一级标题
     title.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER  # 标题居中
     title_run = title.add_run(name, )  # 添加标题
