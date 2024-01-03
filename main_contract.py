@@ -131,7 +131,6 @@ def main():
             print("html页面已被删除！！")
         time.sleep(2)
 
-
 if __name__ == '__main__':
     main()
 
